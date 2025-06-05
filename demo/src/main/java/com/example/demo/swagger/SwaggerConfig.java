@@ -1,4 +1,4 @@
-package com.example.demo.Elastic;
+package com.example.demo.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,4 +29,5 @@ public class SwaggerConfig {
 //	API 명세 생성: 분석된 정보를 바탕으로, API의 경로, 파라미터, 요청/응답 데이터 구조 등을 정의한 OpenAPI 3.0 표준 명세 파일(JSON 형식)을 내부적으로 생성 (기본적으로 /v3/api-docs 경로에서 이 JSON을 확인)
 //	UI 렌더링: 사용자가 웹 브라우저에서 특정 URL(기본적으로 localhost:8485/swagger-ui.html)로 접속하면 SpringDoc-OpenAPI에 포함된 Swagger UI가 앞서 생성된 JSON 명세 파일을 읽어서 swagger 스타일로 보여줌.
 //	모르시는게 있으시면 말씀해주세요~
+
 //*/

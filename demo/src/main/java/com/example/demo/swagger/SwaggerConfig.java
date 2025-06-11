@@ -18,7 +18,7 @@ public class SwaggerConfig {
             .info(new Info()
                     .title("ElasticSearch API")
                     .description("Swagger UI ElasticSearch Demo")
-                    .version("v1.0.0")); 
+                    .version("v1.0.2")); 
     }
 }
 
